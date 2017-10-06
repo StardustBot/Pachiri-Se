@@ -20,7 +20,8 @@ switch (args[0].toLowerCase()) {
     case "ping":
         message.channel.send("Pong!");
     break;
-}case "help":
+        
+    case "help":
             message.channel.send({
                 embed: {
                     color: EMBCOLOR,
