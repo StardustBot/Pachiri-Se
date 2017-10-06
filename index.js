@@ -48,6 +48,35 @@ switch (args[0].toLowerCase()) {
 			});
 	break;
 	
+	case "wowaka":
+			message.channel.send({
+				embed: {
+					color: EMBCOLOR,
+					author: {
+						"name": "wowaka profile",
+						"icon_url":"http://st.cdjapan.co.jp/pictures/l/08/46/DGLA-10002.jpg"
+						"url": "http://www.nicovideo.jp/user/11912389"
+					},
+					fields: [
+					{
+						name: "Recent",
+						value: "Unknown - Mother Goose\nhttp://www.nicovideo.jp/watch/sm31791630"
+					},		
+					{
+						name: "All Music",
+						value: "http://www.nicovideo.jp/mylist/12484677"
+					},					
+					{
+						name: "Status",
+						value: "Unactive"
+					}
+					]
+				}
+			});
+	break;
+					
+		
+				
 }
 
 });
