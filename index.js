@@ -20,35 +20,36 @@ switch (args[0].toLowerCase()) {
     case "ping":
         message.channel.send("Pong!");
     break;
-case "help":
-            message.channel.send({
-                embed: {
-                    color: EMBCOLOR,
-                    author: {
-                        "name": "Star Fragments",
-                        "url": "https://github.com/StardustBot/Stardust",
-                        "icon_url": "https://i.pinimg.com/736x/2f/6b/a6/2f6ba6c37cd47061ffb209797e50bc7a--anime-kawaii-anime-chibi.jpg"
-                    },
-                    fields: [
-                    {
-                        name: "Main",
-                        value: "help\ninfo\nping"
-                    },        
-                    {
-                        name: "Roleplay",
-                        value: "bite\nhug\npat\nshrug\nthumbsup\nwag\nweapon"
-                    
-                    },                    
-                    {
-                        name: "Music",
-                        value: "musichelp\nwowaka\nnayusenjin\ndaniwell\nkuruosa\npinnochio\nmateru\nmitchie\n40mp\nhalysoy\nmothy\ncircus\ncrusher\njubyphonic\nrachie"
-                    }
-                    ]
-                }
-            });
-            break;
+	
+	case "help":
+			message.channel.send({
+				embed: {
+					color: EMBCOLOR,
+					author: {
+						"name": "Star Fragments",
+						"url": "https://github.com/StardustBot/Stardust",
+						"icon_url": "https://i.pinimg.com/736x/2f/6b/a6/2f6ba6c37cd47061ffb209797e50bc7a--anime-kawaii-anime-chibi.jpg"
+					},
+					fields: [
+					{
+						name: "Main",
+						value: "help\ninfo\nping"
+					},		
+					{
+						name: "Roleplay",
+						value: "bite\nhug\npat\nshrug\nthumbsup\nwag\nweapon"
+					},					
+					{
+						name: "Music",
+						value: "musichelp\nwowaka\nnayusenjin\ndaniwell\nkuruosa\npinnochio\nmateru\nmitchie\n40mp\nhalysoy\nmothy\ncircus\ncrusher\njuby\nrachie"
+					}
+					]
+				}
+			});
+	break;
+	
+}
 
 });
 
 bot.login(process.env.BOT_TOKEN);
-
