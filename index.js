@@ -54,7 +54,7 @@ switch (args[0].toLowerCase()) {
 					color: EMBCOLOR,
 					author: {
 						"name": "wowaka profile",
-						"icon_url":"http://st.cdjapan.co.jp/pictures/l/08/46/DGLA-10002.jpg"
+						"icon_url":"http://st.cdjapan.co.jp/pictures/l/08/46/DGLA-10002.jpg",
 						"url": "http://www.nicovideo.jp/user/11912389"
 					},
 					fields: [
