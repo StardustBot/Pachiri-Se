@@ -17,8 +17,8 @@ if (!message.content.startsWith(PREFIX)) return;
 var args = message.content.substring(PREFIX.length).split(" ");
 
 switch (args[0].toLowerCase()) {
-    case "Star":
-        message.channel.send("Dust!");
+    case "ping":
+        message.channel.send("Pong!");
     break;
 }
 
