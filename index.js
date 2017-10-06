@@ -22,6 +22,6 @@ switch (args[0].toLowerCase()) {
     break;
 }
 
-}
+});
 
 bot.login(process.env.BOT_TOKEN);
