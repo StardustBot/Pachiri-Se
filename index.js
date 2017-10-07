@@ -76,7 +76,7 @@ switch (args[0].toLowerCase()) {
 	break;
 	
 	case "nayutanseijin":
-		 	message.channel.send([
+		 	message.channel.send({
 				embed: {
 					color: EMBCOLOR,
 					author: {
