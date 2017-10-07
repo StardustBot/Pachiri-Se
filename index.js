@@ -160,5 +160,4 @@ switch (args[0].toLowerCase()) {
 
 });
 
-bot.login("MzY1NjU5Mzk2MjQ1NTUzMTU0.DLh-oQ.Lc1mo6eAV4P-YNNx2Rg3pl_80-4");
-//bot.login(process.env.BOT_TOKEN);
+bot.login(process.env.BOT_TOKEN);
