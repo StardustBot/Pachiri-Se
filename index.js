@@ -103,7 +103,7 @@ switch (args[0].toLowerCase()) {
 	break;
 	
 	case "mitchie":
-		 	message.channel.send([
+		 	message.channel.send({
 				embed: {
 					color: EMBCOLOR,
 					author: {
@@ -114,7 +114,7 @@ switch (args[0].toLowerCase()) {
 					fields: [
 					{
 						name: "Recent",
-						value: "Ohedo Juliet Night"\nhttp://www.nicovideo.jp/watch/sm31812792"
+						value: "Ohedo Juliet Night\nhttp://www.nicovideo.jp/watch/sm31812792"
 					},		
 					{
 						name: "All Music",
@@ -130,7 +130,7 @@ switch (args[0].toLowerCase()) {
 	break;	
 		
 	case "40mp":
-		 	message.channel.send([
+		 	message.channel.send({
 				embed: {
 					color: EMBCOLOR,
 					author: {
@@ -141,11 +141,11 @@ switch (args[0].toLowerCase()) {
 					fields: [
 					{
 						name: "Recent",
-						value: "Destiny Determinism"\nhttp://www.nicovideo.jp/watch/sm31995557?playlist_type=mylist&group_id=7975931&mylist_sort=6&ref=mylist_s6_p1_n60"
+						value: "Ohedo Juliet Night\nhttp://www.nicovideo.jp/watch/sm31812792"
 					},		
 					{
 						name: "All Music",
-						value: "http://www.nicovideo.jp/mylist/7975931"
+						value: "http://www.nicovideo.jp/mylist/26375614"
 					},					
 					{
 						name: "Status",
@@ -160,4 +160,5 @@ switch (args[0].toLowerCase()) {
 
 });
 
-bot.login(process.env.BOT_TOKEN);
+bot.login("MzY1NjU5Mzk2MjQ1NTUzMTU0.DLh-oQ.Lc1mo6eAV4P-YNNx2Rg3pl_80-4");
+//bot.login(process.env.BOT_TOKEN);
