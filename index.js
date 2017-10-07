@@ -114,7 +114,7 @@ switch (args[0].toLowerCase()) {
 					fields: [
 					{
 						name: "Recent",
-						value: "Ohedo Juliet Night\nhttp://www.nicovideo.jp/watch/sm31812792"
+						value: "Ohedo Juliet Night"\nhttp://www.nicovideo.jp/watch/sm31812792"
 					},		
 					{
 						name: "All Music",
@@ -141,11 +141,11 @@ switch (args[0].toLowerCase()) {
 					fields: [
 					{
 						name: "Recent",
-						value: "Ohedo Juliet Night\nhttp://www.nicovideo.jp/watch/sm31812792"
+						value: "Destiny Determinism"\nhttp://www.nicovideo.jp/watch/sm31995557?playlist_type=mylist&group_id=7975931&mylist_sort=6&ref=mylist_s6_p1_n60"
 					},		
 					{
 						name: "All Music",
-						value: "http://www.nicovideo.jp/mylist/26375614"
+						value: "http://www.nicovideo.jp/mylist/7975931"
 					},					
 					{
 						name: "Status",
